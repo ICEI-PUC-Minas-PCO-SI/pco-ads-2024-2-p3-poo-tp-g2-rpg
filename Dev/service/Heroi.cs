@@ -1,4 +1,6 @@
-﻿public class Heroi 
+﻿//APAGAR DEPOIS 
+
+public class Heroi 
 {
    public string Nome { get; set; }
     public string Inteligencia { get; set; }

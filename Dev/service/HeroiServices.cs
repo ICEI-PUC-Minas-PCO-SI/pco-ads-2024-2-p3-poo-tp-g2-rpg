@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
+//ALTERAR QUANDO FORMS ESTIVEREM PRONTOS
 public class HeroiServices
 {
     static string _urlBase = "https://superheroapi.com/api/e46552f383b1f3aaf64f41147f20b97e/";
