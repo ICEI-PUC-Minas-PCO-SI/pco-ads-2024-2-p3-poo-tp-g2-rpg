@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Src"
+    "\\Src",
+    "\\Src\\RPG",
+    "\\Src\\RPG\\Imagens"
   ],
-  "SelectedNode": "\\Src\\RPG.sln",
+  "SelectedNode": "\\Src\\RPG\\Imagens\\desktop.ini",
   "PreviewInSolutionExplorer": false
 }
