@@ -1,6 +1,5 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using Teste;
 
 public class HeroiServices
 {
@@ -31,19 +30,19 @@ public class HeroiServices
                     };
 
                     Console.WriteLine($"Sucesso! Herói encontrado: {heroi.Nome}");
-                    return heroi; 
+                    return heroi;
                 }
                 else
                 {
                     Console.WriteLine($"Erro: StatusCode {response.StatusCode}");
-                    return null; 
+                    return null;
                 }
             }
         }
         catch (Exception ex)
         {
             Console.WriteLine($"Erro ao consultar a API: {ex.Message}");
-            return null; 
+            return null;
         }
     }
 }
