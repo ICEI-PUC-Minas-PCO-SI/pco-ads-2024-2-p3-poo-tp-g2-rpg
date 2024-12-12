@@ -143,16 +143,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <Content Include="Imagens\FtoAnimal.jpg" />
-    <Content Include="Imagens\FtoDragao.jpg" />
-    <Content Include="Imagens\FtoGuerreiro.jpg" />
-    <Content Include="Imagens\FtoLadrao.jpg" />
-    <Content Include="Imagens\FtoMago.jpg" />
-    <Content Include="Imagens\FtoPaladino.jpg" />
-    <Content Include="Imagens\FtoTroll.jpg" />
-    <Content Include="Imagens\FtoZumbi.png" />
+    <Content Include="Imagens\bgImage.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
