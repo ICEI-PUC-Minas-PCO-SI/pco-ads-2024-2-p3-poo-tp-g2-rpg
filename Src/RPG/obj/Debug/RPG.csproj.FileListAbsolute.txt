@@ -41,5 +41,8 @@ C:\Users\Pedro Henrique\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\obj
 C:\Users\Pedro Henrique\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\obj\Debug\RPG.Properties.Resources.resources
 C:\Users\Pedro Henrique\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\obj\Debug\RPG.csproj.GenerateResource.cache
 C:\Users\Pedro Henrique\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\obj\Debug\RPG.csproj.CoreCompileInputs.cache
+C:\Users\Pedro Henrique\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\bin\Debug\RPG.exe.config
+C:\Users\Pedro Henrique\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\bin\Debug\RPG.exe
+C:\Users\Pedro Henrique\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\bin\Debug\RPG.pdb
 C:\Users\Pedro Henrique\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\obj\Debug\RPG.exe
 C:\Users\Pedro Henrique\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\obj\Debug\RPG.pdb

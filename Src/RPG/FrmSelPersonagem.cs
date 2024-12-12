@@ -19,7 +19,7 @@ namespace RPG
         {
             InitializeComponent();
         }
-        
+
         public FrmSelPersonagem(Jogo jogo)
         {
             NovoJogo = jogo;
@@ -51,53 +51,53 @@ namespace RPG
             this.Close();
         }
 
-        private void btnguerreiro_Click(object sender, EventArgs e)
+        private void btnben10_Click(object sender, EventArgs e)
         {
-            this.NovoPersonagem(new Gerreiro());
+            this.NovoPersonagem(new Ben10());
             this.MudarDeTela();
         }
 
-        private void btnladrao_Click(object sender, EventArgs e)
+        private void btngodzilla_Click(object sender, EventArgs e)
         {
-            this.NovoPersonagem(new Ladrao());
+            this.NovoPersonagem(new Godzilla());
             this.MudarDeTela();
         }
 
-        private void btnmago_Click(object sender, EventArgs e)
+        private void btngoku_Click(object sender, EventArgs e)
         {
 
-            this.NovoPersonagem(new Mago());
+            this.NovoPersonagem(new Goku());
             this.MudarDeTela();
         }
 
-        private void btnpaladino_Click(object sender, EventArgs e)
+        private void btnspider_Click(object sender, EventArgs e)
         {
 
-            this.NovoPersonagem(new Paladino());
+            this.NovoPersonagem(new SpiderMan());
             this.MudarDeTela();
         }
 
-        private void btnanimal_Click(object sender, EventArgs e)
+        private void btndeadpool_Click(object sender, EventArgs e)
         {
-            this.NovoPersonagem(new Animal());
+            this.NovoPersonagem(new Deadpool());
             this.MudarDeTela();
         }
 
-        private void btnTroll_Click(object sender, EventArgs e)
+        private void btnharley_Click(object sender, EventArgs e)
         {
-            this.NovoPersonagem(new Troll());
+            this.NovoPersonagem(new HarleyQuinn());
             this.MudarDeTela();
         }
 
-        private void btndragao_Click(object sender, EventArgs e)
+        private void btnhellboy_Click(object sender, EventArgs e)
         {
-            this.NovoPersonagem(new Dragao());
+            this.NovoPersonagem(new Hellboy());
             this.MudarDeTela();
         }
 
-        private void btnzumbi_Click(object sender, EventArgs e)
+        private void btnloki_Click(object sender, EventArgs e)
         {
-            this.NovoPersonagem(new Zumbi());
+            this.NovoPersonagem(new Loki());
             this.MudarDeTela();
         }
     }
