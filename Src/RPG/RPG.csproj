@@ -47,7 +47,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class\AntiHerois\AntiHeroi.cs" />
+    <Compile Include="Class\AntiHerois\Deadpool.cs" />
+    <Compile Include="Class\AntiHerois\HarleyQuinn.cs" />
+    <Compile Include="Class\AntiHerois\Hellboy.cs" />
+    <Compile Include="Class\AntiHerois\Loki.cs" />
     <Compile Include="Class\Enum.cs" />
+    <Compile Include="Class\Heroi\Ben10.cs" />
+    <Compile Include="Class\Heroi\Godzilla.cs" />
+    <Compile Include="Class\Heroi\Goku.cs" />
+    <Compile Include="Class\Heroi\Heroi.cs" />
+    <Compile Include="Class\Heroi\SpiderMan.cs" />
     <Compile Include="Class\Item\Armas\Besta.cs" />
     <Compile Include="Class\Item\Armas\Cajado.cs" />
     <Compile Include="Class\Item\Armas\EsferadeAtaque.cs" />
@@ -62,21 +72,11 @@
     <Compile Include="Class\Item\Magias\MagiaCura.cs" />
     <Compile Include="Class\Item\Magias\HalitoDeFogo.cs" />
     <Compile Include="Class\Item\Magias\PorcaodaVida.cs" />
-    <Compile Include="Class\Inumeno\Animal.cs" />
     <Compile Include="Class\Item\Arma.cs" />
-    <Compile Include="Class\Inumeno\Dragao.cs" />
-    <Compile Include="Class\Humano\Gerreiro.cs" />
-    <Compile Include="Class\Humano\Humano.cs" />
-    <Compile Include="Class\Inumeno\Inumano.cs" />
     <Compile Include="Class\Item\Item.cs" />
     <Compile Include="Class\Item\Magias\Tempestade.cs" />
     <Compile Include="Class\Jogador.cs" />
-    <Compile Include="Class\Humano\Ladrão.cs" />
-    <Compile Include="Class\Humano\Mago.cs" />
-    <Compile Include="Class\Humano\Paladino.cs" />
     <Compile Include="Class\Personagem.cs" />
-    <Compile Include="Class\Inumeno\Troll.cs" />
-    <Compile Include="Class\Inumeno\Zumbi.cs" />
     <Compile Include="Form.cs">
       <SubType>Form</SubType>
     </Compile>

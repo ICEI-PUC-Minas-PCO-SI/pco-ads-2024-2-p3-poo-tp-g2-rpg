@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmSelPersonagem));
-            this.btnguerreiro = new System.Windows.Forms.Button();
-            this.btnladrao = new System.Windows.Forms.Button();
-            this.btnmago = new System.Windows.Forms.Button();
-            this.btnpaladino = new System.Windows.Forms.Button();
-            this.btndragao = new System.Windows.Forms.Button();
-            this.btnanimal = new System.Windows.Forms.Button();
-            this.btnTroll = new System.Windows.Forms.Button();
-            this.btnzumbi = new System.Windows.Forms.Button();
+            this.btnben10 = new System.Windows.Forms.Button();
+            this.btngodzilla = new System.Windows.Forms.Button();
+            this.btngoku = new System.Windows.Forms.Button();
+            this.btnspider = new System.Windows.Forms.Button();
+            this.btndeadpool = new System.Windows.Forms.Button();
+            this.btnharley = new System.Windows.Forms.Button();
+            this.btnhellboy = new System.Windows.Forms.Button();
+            this.btnloki = new System.Windows.Forms.Button();
             this.gBhumanos = new System.Windows.Forms.GroupBox();
             this.gBInumanos = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -55,86 +55,86 @@
             // 
             // btnguerreiro
             // 
-            this.btnguerreiro.BackColor = System.Drawing.SystemColors.Control;
-            this.btnguerreiro.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnguerreiro.BackgroundImage")));
-            this.btnguerreiro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnguerreiro.Location = new System.Drawing.Point(14, 32);
-            this.btnguerreiro.Name = "btnguerreiro";
-            this.btnguerreiro.Size = new System.Drawing.Size(150, 161);
-            this.btnguerreiro.TabIndex = 0;
-            this.btnguerreiro.UseVisualStyleBackColor = false;
-            this.btnguerreiro.Click += new System.EventHandler(this.btnguerreiro_Click);
+            this.btnben10.BackColor = System.Drawing.SystemColors.Control;
+            this.btnben10.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnben10.BackgroundImage")));
+            this.btnben10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnben10.Location = new System.Drawing.Point(14, 32);
+            this.btnben10.Name = "btnben10";
+            this.btnben10.Size = new System.Drawing.Size(150, 161);
+            this.btnben10   .TabIndex = 0;
+            this.btnben10.UseVisualStyleBackColor = false;
+            this.btnben10.Click += new System.EventHandler(this.btnben10_Click);
             // 
             // btnladrao
             // 
-            this.btnladrao.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnladrao.BackgroundImage")));
-            this.btnladrao.Location = new System.Drawing.Point(170, 32);
-            this.btnladrao.Name = "btnladrao";
-            this.btnladrao.Size = new System.Drawing.Size(150, 161);
-            this.btnladrao.TabIndex = 1;
-            this.btnladrao.UseVisualStyleBackColor = true;
-            this.btnladrao.Click += new System.EventHandler(this.btnladrao_Click);
+            this.btngodzilla.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btngodzilla.BackgroundImage")));
+            this.btngodzilla.Location = new System.Drawing.Point(170, 32);
+            this.btngodzilla.Name = "btngodzilla";
+            this.btngodzilla.Size = new System.Drawing.Size(150, 161);
+            this.btngodzilla.TabIndex = 1;
+            this.btngodzilla.UseVisualStyleBackColor = true;
+            this.btngodzilla.Click += new System.EventHandler(this.btngodzilla_Click);
             // 
             // btnmago
             // 
-            this.btnmago.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnmago.BackgroundImage")));
-            this.btnmago.Location = new System.Drawing.Point(14, 233);
-            this.btnmago.Name = "btnmago";
-            this.btnmago.Size = new System.Drawing.Size(150, 161);
-            this.btnmago.TabIndex = 2;
-            this.btnmago.UseVisualStyleBackColor = true;
-            this.btnmago.Click += new System.EventHandler(this.btnmago_Click);
+            this.btngoku.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btngoku.BackgroundImage")));
+            this.btngoku.Location = new System.Drawing.Point(14, 233);
+            this.btngoku.Name = "btngoku";
+            this.btngoku.Size = new System.Drawing.Size(150, 161);
+            this.btngoku.TabIndex = 2;
+            this.btngoku.UseVisualStyleBackColor = true;
+            this.btngoku.Click += new System.EventHandler(this.btngoku_Click);
             // 
             // btnpaladino
             // 
-            this.btnpaladino.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnpaladino.BackgroundImage")));
-            this.btnpaladino.Location = new System.Drawing.Point(170, 233);
-            this.btnpaladino.Name = "btnpaladino";
-            this.btnpaladino.Size = new System.Drawing.Size(150, 161);
-            this.btnpaladino.TabIndex = 3;
-            this.btnpaladino.UseVisualStyleBackColor = true;
-            this.btnpaladino.Click += new System.EventHandler(this.btnpaladino_Click);
+            this.btnspider.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnspider.BackgroundImage")));
+            this.btnspider.Location = new System.Drawing.Point(170, 233);
+            this.btnspider.Name = "btnspider";
+            this.btnspider.Size = new System.Drawing.Size(150, 161);
+            this.btnspider.TabIndex = 3;
+            this.btnspider.UseVisualStyleBackColor = true;
+            this.btnspider.Click += new System.EventHandler(this.btnspider_Click);
             // 
             // btndragao
             // 
-            this.btndragao.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btndragao.BackgroundImage")));
-            this.btndragao.Location = new System.Drawing.Point(18, 233);
-            this.btndragao.Name = "btndragao";
-            this.btndragao.Size = new System.Drawing.Size(150, 161);
-            this.btndragao.TabIndex = 4;
-            this.btndragao.UseVisualStyleBackColor = true;
-            this.btndragao.Click += new System.EventHandler(this.btndragao_Click);
+            this.btndeadpool.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btndeadpool.BackgroundImage")));
+            this.btndeadpool.Location = new System.Drawing.Point(18, 233);
+            this.btndeadpool.Name = "btndeadpool";
+            this.btndeadpool.Size = new System.Drawing.Size(150, 161);
+            this.btndeadpool.TabIndex = 4;
+            this.btndeadpool.UseVisualStyleBackColor = true;
+            this.btnspider.Click += new System.EventHandler(this.btnspider_Click);
             // 
             // btnanimal
             // 
-            this.btnanimal.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnanimal.BackgroundImage")));
-            this.btnanimal.Location = new System.Drawing.Point(18, 35);
-            this.btnanimal.Name = "btnanimal";
-            this.btnanimal.Size = new System.Drawing.Size(150, 161);
-            this.btnanimal.TabIndex = 5;
-            this.btnanimal.UseVisualStyleBackColor = true;
-            this.btnanimal.Click += new System.EventHandler(this.btnanimal_Click);
+            this.btnharley.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnharley.BackgroundImage")));
+            this.btnharley.Location = new System.Drawing.Point(18, 35);
+            this.btnharley.Name = "btnharley";
+            this.btnharley.Size = new System.Drawing.Size(150, 161);
+            this.btnharley.TabIndex = 5;
+            this.btnharley.UseVisualStyleBackColor = true;
+            this.btnspider.Click += new System.EventHandler(this.btnspider_Click);
             // 
             // btnTroll
             // 
-            this.btnTroll.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnTroll.BackgroundImage")));
-            this.btnTroll.Location = new System.Drawing.Point(174, 35);
-            this.btnTroll.Name = "btnTroll";
-            this.btnTroll.Size = new System.Drawing.Size(150, 161);
-            this.btnTroll.TabIndex = 6;
-            this.btnTroll.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btnTroll.UseVisualStyleBackColor = true;
-            this.btnTroll.Click += new System.EventHandler(this.btnTroll_Click);
+            this.btnhellboy.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnhellboy.BackgroundImage")));
+            this.btnhellboy.Location = new System.Drawing.Point(174, 35);
+            this.btnhellboy.Name = "btnhellboy";
+            this.btnhellboy.Size = new System.Drawing.Size(150, 161);
+            this.btnhellboy.TabIndex = 6;
+            this.btnhellboy.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.btnhellboy.UseVisualStyleBackColor = true;
+            this.btnhellboy.Click += new System.EventHandler(this.btnhellboy_Click);
             // 
             // btnzumbi
             // 
-            this.btnzumbi.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnzumbi.BackgroundImage")));
-            this.btnzumbi.Location = new System.Drawing.Point(174, 233);
-            this.btnzumbi.Name = "btnzumbi";
-            this.btnzumbi.Size = new System.Drawing.Size(150, 161);
-            this.btnzumbi.TabIndex = 7;
-            this.btnzumbi.UseVisualStyleBackColor = true;
-            this.btnzumbi.Click += new System.EventHandler(this.btnzumbi_Click);
+            this.btnloki.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnloki.BackgroundImage")));
+            this.btnloki.Location = new System.Drawing.Point(174, 233);
+            this.btnloki.Name = "btnloki";
+            this.btnloki.Size = new System.Drawing.Size(150, 161);
+            this.btnloki.TabIndex = 7;
+            this.btnloki.UseVisualStyleBackColor = true;
+            this.btnloki.Click += new System.EventHandler(this.btnloki_Click);
             // 
             // gBhumanos
             // 
@@ -142,10 +142,10 @@
             this.gBhumanos.Controls.Add(this.label3);
             this.gBhumanos.Controls.Add(this.label2);
             this.gBhumanos.Controls.Add(this.label1);
-            this.gBhumanos.Controls.Add(this.btnladrao);
-            this.gBhumanos.Controls.Add(this.btnguerreiro);
-            this.gBhumanos.Controls.Add(this.btnmago);
-            this.gBhumanos.Controls.Add(this.btnpaladino);
+            this.gBhumanos.Controls.Add(this.btngodzilla);
+            this.gBhumanos.Controls.Add(this.btnben10);
+            this.gBhumanos.Controls.Add(this.btngoku);
+            this.gBhumanos.Controls.Add(this.btnspider);
             this.gBhumanos.Location = new System.Drawing.Point(12, 33);
             this.gBhumanos.Name = "gBhumanos";
             this.gBhumanos.Size = new System.Drawing.Size(343, 400);
@@ -158,10 +158,10 @@
             this.gBInumanos.Controls.Add(this.label9);
             this.gBInumanos.Controls.Add(this.label8);
             this.gBInumanos.Controls.Add(this.label7);
-            this.gBInumanos.Controls.Add(this.btnzumbi);
-            this.gBInumanos.Controls.Add(this.btnanimal);
-            this.gBInumanos.Controls.Add(this.btnTroll);
-            this.gBInumanos.Controls.Add(this.btndragao);
+            this.gBInumanos.Controls.Add(this.btnloki);
+            this.gBInumanos.Controls.Add(this.btnharley);
+            this.gBInumanos.Controls.Add(this.btnhellboy);
+            this.gBInumanos.Controls.Add(this.btndeadpool);
             this.gBInumanos.Location = new System.Drawing.Point(418, 33);
             this.gBInumanos.Name = "gBInumanos";
             this.gBInumanos.Size = new System.Drawing.Size(345, 400);
@@ -297,14 +297,14 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnguerreiro;
-        private System.Windows.Forms.Button btnladrao;
-        private System.Windows.Forms.Button btnmago;
-        private System.Windows.Forms.Button btnpaladino;
-        private System.Windows.Forms.Button btndragao;
-        private System.Windows.Forms.Button btnanimal;
-        private System.Windows.Forms.Button btnTroll;
-        private System.Windows.Forms.Button btnzumbi;
+        private System.Windows.Forms.Button btnben10;
+        private System.Windows.Forms.Button btngodzilla;
+        private System.Windows.Forms.Button btngoku;
+        private System.Windows.Forms.Button btnspider;
+        private System.Windows.Forms.Button btndeadpool;
+        private System.Windows.Forms.Button btnharley;
+        private System.Windows.Forms.Button btnhellboy;
+        private System.Windows.Forms.Button btnloki;
         private System.Windows.Forms.GroupBox gBhumanos;
         private System.Windows.Forms.GroupBox gBInumanos;
         private System.Windows.Forms.Label label4;
