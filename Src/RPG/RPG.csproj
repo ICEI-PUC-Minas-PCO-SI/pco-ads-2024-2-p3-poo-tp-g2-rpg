@@ -51,13 +51,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class\Enum.cs" />
-    <Compile Include="Class\Item\Armas\Besta.cs" />
+    <Compile Include="Class\Item\Armas\Soco.cs" />
     <Compile Include="Class\Item\Armas\Cajado.cs" />
     <Compile Include="Class\Item\Armas\EsferadeAtaque.cs" />
     <Compile Include="Class\Item\Armas\EspadaBarroca.cs" />
     <Compile Include="Class\Item\Armas\GarraLetal.cs" />
     <Compile Include="Class\Item\Armas\Porrete.cs" />
-    <Compile Include="Class\Item\Armas\TridenteSagrado.cs" />
+    <Compile Include="Class\Item\Armas\Chute.cs" />
     <Compile Include="Class\Item\Magia.cs" />
     <Compile Include="Class\Item\Magias\Bio.cs" />
     <Compile Include="Class\Item\Magias\FlamaGelada.cs" />
@@ -152,6 +152,13 @@
   <ItemGroup>
     <Content Include="Imagens\bgImage.jpg" />
     <Content Include="Imagens\SpiderMan.png" />
+    <Content Include="Imagens\Deadpool.png" />
+    <Content Include="Imagens\Godzilla.png" />
+    <Content Include="Imagens\Goku.png" />
+    <Content Include="Imagens\HarleyQuinn.png" />
+    <Content Include="Imagens\Hellboy.png" />
+    <Content Include="Imagens\Loki.png" />
+    <Content Include="Imagens\Ben10.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

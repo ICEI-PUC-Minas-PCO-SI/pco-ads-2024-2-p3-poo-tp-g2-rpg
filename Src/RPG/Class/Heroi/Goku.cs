@@ -10,7 +10,7 @@ public class Goku : Heroi
         this.NomeImagem = "Goku.png";
         InicializarHeroi("289");
 
-        VetItem[0] = new TridenteSagrado();
+        VetItem[0] = new Chute();
         VetItem[1] = new Cajado();
         VetItem[3] = new MagiaCura();
         VetItem[4] = new Bio();

@@ -28,7 +28,6 @@
         //  / </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmSelPersonagem));
             this.btnben10 = new System.Windows.Forms.Button();
             this.btngodzilla = new System.Windows.Forms.Button();
             this.btngoku = new System.Windows.Forms.Button();
@@ -56,7 +55,8 @@
             // btnben10
             // 
             this.btnben10.BackColor = System.Drawing.SystemColors.Control;
-            this.btnben10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnben10.BackgroundImage = global::RPG.Properties.Resources.Ben10;
+            this.btnben10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnben10.Location = new System.Drawing.Point(14, 32);
             this.btnben10.Name = "btnben10";
             this.btnben10.Size = new System.Drawing.Size(150, 161);
@@ -66,6 +66,8 @@
             // 
             // btngodzilla
             // 
+            this.btngodzilla.BackgroundImage = global::RPG.Properties.Resources.Godzilla;
+            this.btngodzilla.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btngodzilla.Location = new System.Drawing.Point(170, 32);
             this.btngodzilla.Name = "btngodzilla";
             this.btngodzilla.Size = new System.Drawing.Size(150, 161);
@@ -75,6 +77,8 @@
             // 
             // btngoku
             // 
+            this.btngoku.BackgroundImage = global::RPG.Properties.Resources.Goku;
+            this.btngoku.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btngoku.Location = new System.Drawing.Point(14, 233);
             this.btngoku.Name = "btngoku";
             this.btngoku.Size = new System.Drawing.Size(150, 161);
@@ -95,22 +99,30 @@
             // 
             // btndeadpool
             // 
+            this.btndeadpool.BackgroundImage = global::RPG.Properties.Resources.Deadpool;
+            this.btndeadpool.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btndeadpool.Location = new System.Drawing.Point(18, 233);
             this.btndeadpool.Name = "btndeadpool";
             this.btndeadpool.Size = new System.Drawing.Size(150, 161);
             this.btndeadpool.TabIndex = 4;
             this.btndeadpool.UseVisualStyleBackColor = true;
+            this.btndeadpool.Click += new System.EventHandler(this.btndeadpool_Click);
             // 
             // btnharley
             // 
+            this.btnharley.BackgroundImage = global::RPG.Properties.Resources.HarleyQuinn;
+            this.btnharley.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnharley.Location = new System.Drawing.Point(18, 35);
             this.btnharley.Name = "btnharley";
             this.btnharley.Size = new System.Drawing.Size(150, 161);
             this.btnharley.TabIndex = 5;
             this.btnharley.UseVisualStyleBackColor = true;
+            this.btnharley.Click += new System.EventHandler(this.btnharley_Click);
             // 
             // btnhellboy
             // 
+            this.btnhellboy.BackgroundImage = global::RPG.Properties.Resources.Hellboy;
+            this.btnhellboy.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnhellboy.Location = new System.Drawing.Point(174, 35);
             this.btnhellboy.Name = "btnhellboy";
             this.btnhellboy.Size = new System.Drawing.Size(150, 161);
@@ -121,6 +133,8 @@
             // 
             // btnloki
             // 
+            this.btnloki.BackgroundImage = global::RPG.Properties.Resources.Loki;
+            this.btnloki.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnloki.Location = new System.Drawing.Point(174, 233);
             this.btnloki.Name = "btnloki";
             this.btnloki.Size = new System.Drawing.Size(150, 161);
@@ -160,9 +174,9 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(20, 213);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(47, 17);
+            this.label3.Size = new System.Drawing.Size(46, 17);
             this.label3.TabIndex = 6;
-            this.label3.Text = "Mago";
+            this.label3.Text = "Goku";
             // 
             // label2
             // 
@@ -170,9 +184,9 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(170, 16);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 17);
+            this.label2.Size = new System.Drawing.Size(67, 17);
             this.label2.TabIndex = 5;
-            this.label2.Text = "Ladão";
+            this.label2.Text = "Godzilla";
             // 
             // label1
             // 
@@ -180,9 +194,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(20, 16);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(69, 17);
+            this.label1.Size = new System.Drawing.Size(54, 17);
             this.label1.TabIndex = 4;
-            this.label1.Text = "Gerreiro";
+            this.label1.Text = "Ben10";
             // 
             // gBInumanos
             // 
@@ -206,9 +220,9 @@
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(171, 16);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(41, 17);
+            this.label10.Size = new System.Drawing.Size(62, 17);
             this.label10.TabIndex = 11;
-            this.label10.Text = "Troll";
+            this.label10.Text = "Hellboy";
             // 
             // label9
             // 
@@ -216,9 +230,9 @@
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(171, 213);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(52, 17);
+            this.label9.Size = new System.Drawing.Size(38, 17);
             this.label9.TabIndex = 10;
-            this.label9.Text = "Zumbi";
+            this.label9.Text = "Loki";
             // 
             // label8
             // 
@@ -226,9 +240,9 @@
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(15, 213);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(61, 17);
+            this.label8.Size = new System.Drawing.Size(77, 17);
             this.label8.TabIndex = 9;
-            this.label8.Text = "Dragão";
+            this.label8.Text = "Deadpool";
             // 
             // label7
             // 
@@ -236,9 +250,9 @@
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(15, 16);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(56, 17);
+            this.label7.Size = new System.Drawing.Size(103, 17);
             this.label7.TabIndex = 8;
-            this.label7.Text = "Animal";
+            this.label7.Text = "Harley Quinn";
             // 
             // label5
             // 
@@ -264,8 +278,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.BackgroundImage = global::RPG.Properties.Resources.bgImage;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(802, 456);
             this.ControlBox = false;
             this.Controls.Add(this.label6);

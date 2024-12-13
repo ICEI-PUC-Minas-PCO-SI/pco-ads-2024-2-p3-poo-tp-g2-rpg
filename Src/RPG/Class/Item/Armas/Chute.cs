@@ -2,7 +2,7 @@
 
 namespace RPG.Class.Item
 {
-    public class TridenteSagrado : Arma
+    public class Chute : Arma
     {
         public override int Dano { get { return this.dano; } set { this.dano = value; } }
         private int dano;
@@ -15,7 +15,7 @@ namespace RPG.Class.Item
         public override int GastoMana { get { return this.gastomana; } set { this.gastomana = value; } }
         private int gastomana;
 
-        public TridenteSagrado()
+        public Chute()
         {
             this.Nome = "Tridente Sagrado";
             this.Cura = 0;

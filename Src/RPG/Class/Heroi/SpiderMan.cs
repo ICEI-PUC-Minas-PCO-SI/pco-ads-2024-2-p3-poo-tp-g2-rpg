@@ -18,7 +18,7 @@ public class SpiderMan : Heroi
         VetItem[1] = new Intoxicacao();
         VetItem[2] = new Tempestade();
         VetItem[3] = new Cajado();
-        VetItem[4] = new Besta();
+        VetItem[4] = new Soco();
         VetItem[5] = new EsferadeAtaque();
         this.MenorArma();
     }
