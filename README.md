@@ -5,7 +5,7 @@
 
 `DISCIPLINA: Projeto - Projeto de POO`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Desenvolvimento do projeto RPG por Turnos, desenvolvido em CSharp utilizando Windows Forms.
 
 ## Integrantes
 
