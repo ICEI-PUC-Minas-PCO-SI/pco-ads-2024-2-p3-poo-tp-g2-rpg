@@ -9,8 +9,9 @@ public class SpiderMan : Heroi
 {
     public SpiderMan()
     {
+        this.NomeImagem = "SpiderMan.png";
         // Inicializa o herói chamando um método assíncrono
-        InicializarHeroi("620").Wait();
+        InicializarHeroi("620");
         
         // Definição dos itens do herói
         VetItem[0] = new Porrete();
@@ -51,7 +52,6 @@ public class SpiderMan : Heroi
             this.Agilidade = powerstats["speed"]?.ToObject<int>() ?? 0;
 
             // Acessando a URL da imagem
-            this.NomeImagem = HeroDados["image"]?["url"]?.ToString() ;  // Imagem padrão caso não encontre
         }
     }
 }

@@ -151,6 +151,7 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="Imagens\bgImage.jpg" />
+    <Content Include="Imagens\SpiderMan.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
