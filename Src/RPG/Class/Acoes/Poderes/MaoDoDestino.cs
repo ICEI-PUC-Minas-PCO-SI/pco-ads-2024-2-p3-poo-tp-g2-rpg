@@ -2,8 +2,9 @@
 
 namespace RPG.Class.Item
 {
-    public class HalitoDeFogo :Poder
+    public class MaoDoDestino : Poder
     {
+
         public override int Dano { get { return this.dano; } set { this.dano = value; } }
         private int dano;
         public override string Nome { get { return this.nome; } set { this.nome = value; } }
@@ -14,14 +15,12 @@ namespace RPG.Class.Item
         private int gastomana;
         public override string EfeitoItem { get { return RPG.Class.Enum.EnumEfeitoItem.Dano.ToString(); } set { } }
 
-        public HalitoDeFogo()
+        public MaoDoDestino(int forca)
         {
-            this.Nome = "Halito De Fogo";
+            this.Nome = "Mao Destino";
+            this.Dano = forca * 15;
             this.Cura = 0;
-            this.Dano = 400;
-            this.GastoMana = 12;
+            this.GastoMana = 35;
         }
-
-       
     }
 }

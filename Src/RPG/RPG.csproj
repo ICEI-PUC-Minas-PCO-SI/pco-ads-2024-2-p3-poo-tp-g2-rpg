@@ -51,23 +51,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class\Enum.cs" />
-    <Compile Include="Class\Item\Ataques\Soco.cs" />
-    <Compile Include="Class\Item\Ataques\Chute.cs" />
-    <Compile Include="Class\Item\Poder.cs" />
-    <Compile Include="Class\Item\Poderes\RegeneracaoInsana.cs" />
-    <Compile Include="Class\Item\Poderes\FlamaGelada.cs" />
-    <Compile Include="Class\Item\Poderes\Intoxicacao.cs" />
-    <Compile Include="Class\Item\Poderes\MagiaCura.cs" />
-    <Compile Include="Class\Item\Poderes\HalitoDeFogo.cs" />
-    <Compile Include="Class\Item\Poderes\PorcaodaVida.cs" />
+    <Compile Include="Class\Acoes\Ataques\Soco.cs" />
+    <Compile Include="Class\Acoes\Ataques\Chute.cs" />
+    <Compile Include="Class\Acoes\Poder.cs" />
+    <Compile Include="Class\Acoes\Poderes\TeiaEstratetgica.cs" />
+    <Compile Include="Class\Acoes\Poderes\Regeneracao.cs" />
+    <Compile Include="Class\Acoes\Poderes\MaoDoDestino.cs" />
+    <Compile Include="Class\Acoes\Poderes\TransformacaoAlienigena.cs" />
+    <Compile Include="Class\Acoes\Poderes\SoproAtomico.cs" />
+    <Compile Include="Class\Acoes\Poderes\Ilusão.cs" />
+    <Compile Include="Class\Acoes\Poderes\Kamehameha.cs" />
     <Compile Include="Class\AntiHerois\HarleyQuinn.cs" />
-    <Compile Include="Class\Item\Ataque.cs" />
+    <Compile Include="Class\Acoes\Ataque.cs" />
     <Compile Include="Class\AntiHerois\Deadpool.cs" />
     <Compile Include="Class\Heroi\Ben10.cs" />
     <Compile Include="Class\Heroi\Heroi.cs" />
     <Compile Include="Class\AntiHerois\AntiHeroi.cs" />
-    <Compile Include="Class\Item\Item.cs" />
-    <Compile Include="Class\Item\Poderes\CaosExplosivo .cs" />
+    <Compile Include="Class\Acoes\Item.cs" />
+    <Compile Include="Class\Acoes\Poderes\CaosExplosivo .cs" />
     <Compile Include="Class\Jogador.cs" />
     <Compile Include="Class\Heroi\Godzilla.cs" />
     <Compile Include="Class\Heroi\Goku.cs" />
@@ -146,6 +147,8 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="Imagens\bgImage.jpg" />
+    <Content Include="Imagens\Img1.jpg" />
+    <Content Include="Imagens\Img2.jpg" />
     <Content Include="Imagens\SpiderMan.png" />
     <Content Include="Imagens\Deadpool.png" />
     <Content Include="Imagens\Godzilla.png" />

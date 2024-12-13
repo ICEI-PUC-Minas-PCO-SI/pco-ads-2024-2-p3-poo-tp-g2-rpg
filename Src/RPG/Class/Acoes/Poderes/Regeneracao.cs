@@ -2,7 +2,7 @@
 
 namespace RPG.Class.Item
 {
-    public class PorcaodaVida : Poder
+    public class Regeneracao : Poder 
     {
         public override int Dano { get { return this.dano; } set { this.dano = value; } }
         private int dano;
@@ -13,13 +13,14 @@ namespace RPG.Class.Item
         public override int GastoMana { get { return this.gastomana; } set { this.gastomana = value; } }
         private int gastomana;
         public override string EfeitoItem { get { return RPG.Class.Enum.EnumEfeitoItem.Cura.ToString(); } set { } }
-        public PorcaodaVida()
+
+        public Regeneracao(int Vida)
         {
-            this.Nome = "Proção da Vida";
-            this.Cura = 200;
+            this.Nome = "Regeneracao";
             this.Dano = 0;
-            this.GastoMana = 12;
-        }
-        
+            this.Cura = 600;
+            this.GastoMana = 15;
+       
+        }        
     }
 }

@@ -20,6 +20,7 @@ public class Godzilla : Heroi
 
         VetItem[0] = new Soco(this.ForcaFisica);
         VetItem[1] = new Chute(this.ForcaFisica);
+        VetItem[2] = new SoproAtomico();
 
         this.MenorArma();
     }

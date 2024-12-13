@@ -2,8 +2,9 @@
 
 namespace RPG.Class.Item
 {
-    public class RegeneracaoInsana : Poder 
+    public class SoproAtomico : Poder
     {
+
         public override int Dano { get { return this.dano; } set { this.dano = value; } }
         private int dano;
         public override string Nome { get { return this.nome; } set { this.nome = value; } }
@@ -12,15 +13,18 @@ namespace RPG.Class.Item
         private int cura;
         public override int GastoMana { get { return this.gastomana; } set { this.gastomana = value; } }
         private int gastomana;
+
         public override string EfeitoItem { get { return RPG.Class.Enum.EnumEfeitoItem.Dano.ToString(); } set { } }
 
-        public RegeneracaoInsana(int Vida)
+        public SoproAtomico()
         {
-            this.Nome = "RegeneracaoInsana";
-            this.Dano = 0;
-            this.Cura = (int) Math.Floor(Vida * 0.30);
-            this.GastoMana = 15;
-       
-        }        
+            this.Nome = "Sopro Atomico";
+            this.Cura = 0;
+            this.Dano = 800;
+            this.GastoMana = 45;
+
+        }
+
+
     }
 }

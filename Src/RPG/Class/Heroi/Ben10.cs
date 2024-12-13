@@ -3,6 +3,7 @@ using Newtonsoft.Json.Linq;
 using System;
 using System.Threading.Tasks;
 using RPG.Class.Service;
+using RPG.Interfaces;
 public class Ben10 : Heroi
 {
     public Ben10()
@@ -17,11 +18,12 @@ public class Ben10 : Heroi
 
         VetItem[0] = new Soco(this.ForcaFisica);
         VetItem[1] = new Chute(this.ForcaFisica);
+        VetItem[2] = new TransformacaoAlienigena(this.ForcaFisica);
 
         this.MenorArma();
     }
 
-    private async Task InicializarHeroi(string id)
+    public async Task InicializarHeroi(string id)
     {
         HeroiService heroiService = new HeroiService();
         JObject HeroDados = await heroiService.GetHeroById(id);

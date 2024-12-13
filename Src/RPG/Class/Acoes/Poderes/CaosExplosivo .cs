@@ -2,7 +2,7 @@
 
 namespace RPG.Class.Item
 {
-    public class MagiaCura : Poder
+    public class CaosExplosivo : Poder
     {
 
         public override int Dano { get { return this.dano; } set { this.dano = value; } }
@@ -13,18 +13,14 @@ namespace RPG.Class.Item
         private int cura;
         public override int GastoMana { get { return this.gastomana; } set { this.gastomana = value; } }
         private int gastomana;
+        public override string EfeitoItem { get { return RPG.Class.Enum.EnumEfeitoItem.Dano.ToString(); } set { } }
 
-        public override string EfeitoItem { get { return RPG.Class.Enum.EnumEfeitoItem.Cura.ToString(); } set { } }
-
-        public MagiaCura()
+        public CaosExplosivo(int Poder)
         {
-            this.Nome = "Magia Cura";
-            this.Cura = 400;
-            this.Dano = 0;
-            this.GastoMana = 16;
-
+            this.Nome = "CaosExplosivo ";
+            this.Cura =0;
+            this.Dano = (int) Math.Floor(15 * Poder * 0.4);
+            this.GastoMana=20; 
         }
-
-
     }
 }

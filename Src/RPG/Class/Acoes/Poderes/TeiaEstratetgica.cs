@@ -2,7 +2,7 @@
 
 namespace RPG.Class.Item
 {
-    public class FlamaGelada : Poder
+    public class TeiaEstrategica : Poder
     {
 
         public override int Dano { get { return this.dano; } set { this.dano = value; } }
@@ -15,12 +15,12 @@ namespace RPG.Class.Item
         private int gastomana;
         public override string EfeitoItem { get { return RPG.Class.Enum.EnumEfeitoItem.Dano.ToString(); } set { } }
 
-        public FlamaGelada()
+        public TeiaEstrategica(int Poder)
         {
-            this.Nome = "Flama Gelada";
-            this.Dano = 320;
-            this.Cura = 0;
-            this.GastoMana = 14;
+            this.Nome = "Teia Estrategica";
+            this.Cura =0;
+            this.Dano = (int) Math.Floor(15 * Poder * 0.6);
+            this.GastoMana=20; 
         }
     }
 }

@@ -1,10 +1,10 @@
 ﻿using System;
 
+
 namespace RPG.Class.Item
 {
-    public class CaosExplosivo : Poder
+    public class TransformacaoAlienigena :Poder
     {
-
         public override int Dano { get { return this.dano; } set { this.dano = value; } }
         private int dano;
         public override string Nome { get { return this.nome; } set { this.nome = value; } }
@@ -14,13 +14,13 @@ namespace RPG.Class.Item
         public override int GastoMana { get { return this.gastomana; } set { this.gastomana = value; } }
         private int gastomana;
         public override string EfeitoItem { get { return RPG.Class.Enum.EnumEfeitoItem.Dano.ToString(); } set { } }
-
-        public CaosExplosivo(int Poder)
+        public TransformacaoAlienigena(int Forca)
         {
-            this.Nome = "CaosExplosivo ";
-            this.Cura =0;
-            this.Dano = (int) Math.Floor(11 * Poder * 0.4);
-            this.GastoMana=12; 
+            this.Nome = "Alienigena";
+            this.Dano = Forca * 18;
+            this.Cura = 0;
+            this.GastoMana = 50;
         }
+        
     }
 }

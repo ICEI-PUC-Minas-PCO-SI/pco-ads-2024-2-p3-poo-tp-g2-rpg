@@ -17,6 +17,7 @@ public class Hellboy : AntiHeroi
 
         VetItem[0] = new Soco(this.ForcaFisica);
         VetItem[1] = new Chute(this.ForcaFisica);
+        VetItem[2] = new MaoDoDestino(this.ForcaFisica);
 
         this.MenorArma();
     }
