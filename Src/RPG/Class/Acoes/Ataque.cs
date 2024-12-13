@@ -6,7 +6,7 @@ using System.Text;
 
 namespace RPG.Class.Item
 {
-    public abstract class Ataque : Item
+    public abstract class Ataque : Acoes
     {
         public override int Cura { get { return 0; } }
         public override int GastoMana { get { return 0; } }

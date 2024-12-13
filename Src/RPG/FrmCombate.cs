@@ -214,7 +214,7 @@ namespace RPG
         private void BntTrocarArma_Click(object sender, EventArgs e)
         {
             if (comboBox1.SelectedItem != null)
-                NovoJogo.Player1.Personagem.ArmaAtual = (Item)comboBox1.SelectedItem;
+                NovoJogo.Player1.Personagem.ArmaAtual = (Acoes)comboBox1.SelectedItem;
             TrocaTurno();
             AtualizarTela();
         }
@@ -222,7 +222,7 @@ namespace RPG
         private void BntTrocarArma2_Click(object sender, EventArgs e)
         {
             if (comboBox2.SelectedItem != null)
-                NovoJogo.Player2.Personagem.ArmaAtual = (Item)comboBox2.SelectedItem;
+                NovoJogo.Player2.Personagem.ArmaAtual = (Acoes)comboBox2.SelectedItem;
             TrocaTurno();
             AtualizarTela();
         }

@@ -13,7 +13,7 @@ using System.Text;
 public abstract class Personagem
 {
     #region Atributos Personagem
-    public Item[] VetItem;
+    public Acoes[] VetItem;
 
     public int MagiaAtual
     {
@@ -25,7 +25,7 @@ public abstract class Personagem
         get;
         set;
     }
-    public Item ArmaAtual
+    public Acoes ArmaAtual
     {
         get;
         set;
@@ -77,7 +77,7 @@ public abstract class Personagem
 
     public Personagem()
     {
-        this.VetItem = new Item[10];
+        this.VetItem = new Acoes[10];
     }
     public void AddPontosMana()
     {
@@ -86,18 +86,18 @@ public abstract class Personagem
         else
             this.PontoMagia += (100 - (this.PontosdeMana + 10));
     }
-    public void RemovePontosMana(Item item)
+    public void RemovePontosMana(Acoes item)
     {
         if (PontosdeMana - item.GastoMana < 0)
             this.PontoMagia = 0;
         else
             this.PontosdeMana = this.PontosdeMana - item.GastoMana;
     }
-    public void ReceberAtaque(Item item)
+    public void ReceberAtaque(Acoes item)
     {
         this.PontosdeVida = this.PontosdeVida - item.Dano;
     }
-    public void CurarPersonagem(Item item)
+    public void CurarPersonagem(Acoes item)
     {
         if (item.EfeitoItem == RPG.Class.Enum.EnumEfeitoItem.Cura.ToString())
             this.PontosdeVida = this.PontosdeVida + item.Cura;
@@ -115,7 +115,7 @@ public abstract class Personagem
         }
     }
 
-    public void ReceberAtaqueEspecial(Item item)
+    public void ReceberAtaqueEspecial(Acoes item)
     {
         if ((this.PontosdeVida - (item.Dano * 3)) >= 0)
             this.PontosdeVida = this.PontosdeVida - (item.Dano * 3);

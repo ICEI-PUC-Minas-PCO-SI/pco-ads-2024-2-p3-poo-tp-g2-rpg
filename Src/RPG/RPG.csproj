@@ -59,7 +59,7 @@
     <Compile Include="Class\Acoes\Poderes\MaoDoDestino.cs" />
     <Compile Include="Class\Acoes\Poderes\TransformacaoAlienigena.cs" />
     <Compile Include="Class\Acoes\Poderes\SoproAtomico.cs" />
-    <Compile Include="Class\Acoes\Poderes\Ilusão.cs" />
+    <Compile Include="Class\Acoes\Poderes\Ilusao.cs" />
     <Compile Include="Class\Acoes\Poderes\Kamehameha.cs" />
     <Compile Include="Class\AntiHerois\HarleyQuinn.cs" />
     <Compile Include="Class\Acoes\Ataque.cs" />
@@ -67,7 +67,7 @@
     <Compile Include="Class\Heroi\Ben10.cs" />
     <Compile Include="Class\Heroi\Heroi.cs" />
     <Compile Include="Class\AntiHerois\AntiHeroi.cs" />
-    <Compile Include="Class\Acoes\Item.cs" />
+    <Compile Include="Class\Acoes\Acoes.cs" />
     <Compile Include="Class\Acoes\Poderes\CaosExplosivo .cs" />
     <Compile Include="Class\Jogador.cs" />
     <Compile Include="Class\Heroi\Godzilla.cs" />

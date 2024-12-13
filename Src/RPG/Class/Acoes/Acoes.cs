@@ -3,7 +3,7 @@ using System;
 
 namespace RPG.Class.Item
 {
-    public abstract class Item
+    public abstract class Acoes
     {
         public abstract string Nome { get; set; }
         public abstract int Dano { get; set; }

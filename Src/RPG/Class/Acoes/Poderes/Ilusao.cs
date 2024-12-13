@@ -2,7 +2,7 @@
 
 namespace RPG.Class.Item
 {
-    public class Ilusão :Poder
+    public class Ilusao :Poder
     {
         public override int Dano { get { return this.dano; } set { this.dano = value; } }
         private int dano;
@@ -14,7 +14,7 @@ namespace RPG.Class.Item
         private int gastomana;
         public override string EfeitoItem { get { return RPG.Class.Enum.EnumEfeitoItem.Cura.ToString(); } set { } }
 
-        public Ilusão(int Cura)
+        public Ilusao(int Cura)
         {
             this.Nome = "Ilusão";
             this.Cura = Cura * 150;

@@ -19,7 +19,7 @@ public class Loki : AntiHeroi
 
         VetItem[0] = new Soco(this.ForcaFisica);
         VetItem[1] = new Chute(this.ForcaFisica);
-        VetItem[2] = new Ilusão(12);
+        VetItem[2] = new Ilusao(12);
 
         this.MenorArma();
     }

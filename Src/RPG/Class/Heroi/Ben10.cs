@@ -3,7 +3,6 @@ using Newtonsoft.Json.Linq;
 using System;
 using System.Threading.Tasks;
 using RPG.Class.Service;
-using RPG.Interfaces;
 public class Ben10 : Heroi
 {
     public Ben10()
