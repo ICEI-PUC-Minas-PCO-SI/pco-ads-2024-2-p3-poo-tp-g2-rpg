@@ -1,25 +1,49 @@
 ﻿
 using RPG.Class.Item;
+using Newtonsoft.Json.Linq;
+using System;
+using System.Threading.Tasks;
+using RPG.Class.Service;
 
 public class Loki : AntiHeroi
 {
     public Loki()
     {
-        this.Nome = "Loki";
-        this.PontosdeVida = 2500;
-        this.PontosdeMana = 20;
-        this.ForcaFisica = 40;
-        this.ForcaMagica = 20;
-        this.PontoArmadura = 80;
-        this.ResistenciaMagica = 90;
-        this.Agilidade = 20;
-        this.NomeImagem = "FtoZumbi.png";
-        VetItem[0] = new Intoxicacao();
-        VetItem[1] = new GarraLetal();
-        VetItem[2] = new Porrete();
-        VetItem[3] = new Cajado();
+        this.NomeImagem = "Loki.png";
+        InicializarHeroi("414");
 
         this.MenorArma();
+    }
+
+     private async Task InicializarHeroi(string id)
+    {
+        HeroiService heroiService = new HeroiService();
+        JObject HeroDados = await heroiService.GetHeroById(id);
+
+        if (HeroDados != null)
+        {
+            // Atribuindo os valores do herói com dados da API
+            this.Nome = HeroDados["name"].ToString();
+            
+            // Acessando os dados de powerstats
+            JObject powerstats = HeroDados["powerstats"] as JObject;
+
+            // Convertendo os dados para inteiros e calculando os atributos
+            this.PontosdeVida = (int)(powerstats["intelligence"]?.ToObject<int>() +
+                                      powerstats["strength"]?.ToObject<int>() +
+                                      powerstats["speed"]?.ToObject<int>() +
+                                      powerstats["durability"]?.ToObject<int>() +
+                                      powerstats["power"]?.ToObject<int>() +
+                                      powerstats["combat"]?.ToObject<int>()) * 6;
+
+            this.PontosdeMana = powerstats["power"]?.ToObject<int>() ?? 0;
+            this.ForcaFisica = powerstats["combat"]?.ToObject<int>() ?? 0;
+            this.ForcaMagica = (powerstats["power"]?.ToObject<int>() + powerstats["combat"]?.ToObject<int>()) / 2 ?? 0;
+            this.PontoArmadura  = powerstats["durability"]?.ToObject<int>() ?? 0;
+            this.ResistenciaMagica = (powerstats["durability"]?.ToObject<int>() + powerstats["power"]?.ToObject<int>()) / 2 ?? 0;
+            this.Agilidade = powerstats["speed"]?.ToObject<int>() ?? 0;
+
+        }
     }
 }
 

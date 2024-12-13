@@ -51,7 +51,6 @@ public class SpiderMan : Heroi
             this.ResistenciaMagica = (powerstats["durability"]?.ToObject<int>() + powerstats["power"]?.ToObject<int>()) / 2 ?? 0;
             this.Agilidade = powerstats["speed"]?.ToObject<int>() ?? 0;
 
-            // Acessando a URL da imagem
         }
     }
 }
