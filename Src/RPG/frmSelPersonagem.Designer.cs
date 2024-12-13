@@ -84,6 +84,8 @@
             // 
             // btnspider
             // 
+            this.btnspider.BackgroundImage = global::RPG.Properties.Resources.SpiderMan;
+            this.btnspider.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnspider.Location = new System.Drawing.Point(170, 233);
             this.btnspider.Name = "btnspider";
             this.btnspider.Size = new System.Drawing.Size(150, 161);
