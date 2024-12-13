@@ -80,7 +80,7 @@
     <Compile Include="Class\Personagem.cs" />
     <Compile Include="Class\AntiHerois\Hellboy.cs" />
     <Compile Include="Class\AntiHerois\Loki.cs" />
-    <Compile Include="service\HeroiServices.cs" />
+    <Compile Include="Class\Service\HeroiServices.cs" />
     <Compile Include="Form.cs">
       <SubType>Form</SubType>
     </Compile>

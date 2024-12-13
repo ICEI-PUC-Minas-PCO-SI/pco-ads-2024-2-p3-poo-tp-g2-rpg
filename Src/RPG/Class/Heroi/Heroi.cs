@@ -7,6 +7,5 @@ using System.Text;
 
 public class Heroi : Personagem
 {
-    public HeroiService HeroDados;
 }
 

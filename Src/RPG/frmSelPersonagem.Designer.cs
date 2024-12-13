@@ -38,25 +38,24 @@
             this.btnhellboy = new System.Windows.Forms.Button();
             this.btnloki = new System.Windows.Forms.Button();
             this.gBhumanos = new System.Windows.Forms.GroupBox();
-            this.gBInumanos = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.gBInumanos = new System.Windows.Forms.GroupBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
             this.gBhumanos.SuspendLayout();
             this.gBInumanos.SuspendLayout();
             this.SuspendLayout();
             // 
-            // btnguerreiro
+            // btnben10
             // 
             this.btnben10.BackColor = System.Drawing.SystemColors.Control;
-            this.btnben10.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnben10.BackgroundImage")));
             this.btnben10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btnben10.Location = new System.Drawing.Point(14, 32);
             this.btnben10.Name = "btnben10";
@@ -65,9 +64,8 @@
             this.btnben10.UseVisualStyleBackColor = false;
             this.btnben10.Click += new System.EventHandler(this.btnben10_Click);
             // 
-            // btnladrao
+            // btngodzilla
             // 
-            this.btngodzilla.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btngodzilla.BackgroundImage")));
             this.btngodzilla.Location = new System.Drawing.Point(170, 32);
             this.btngodzilla.Name = "btngodzilla";
             this.btngodzilla.Size = new System.Drawing.Size(150, 161);
@@ -75,9 +73,8 @@
             this.btngodzilla.UseVisualStyleBackColor = true;
             this.btngodzilla.Click += new System.EventHandler(this.btngodzilla_Click);
             // 
-            // btnmago
+            // btngoku
             // 
-            this.btngoku.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btngoku.BackgroundImage")));
             this.btngoku.Location = new System.Drawing.Point(14, 233);
             this.btngoku.Name = "btngoku";
             this.btngoku.Size = new System.Drawing.Size(150, 161);
@@ -85,9 +82,8 @@
             this.btngoku.UseVisualStyleBackColor = true;
             this.btngoku.Click += new System.EventHandler(this.btngoku_Click);
             // 
-            // btnpaladino
+            // btnspider
             // 
-            this.btnspider.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnspider.BackgroundImage")));
             this.btnspider.Location = new System.Drawing.Point(170, 233);
             this.btnspider.Name = "btnspider";
             this.btnspider.Size = new System.Drawing.Size(150, 161);
@@ -95,29 +91,24 @@
             this.btnspider.UseVisualStyleBackColor = true;
             this.btnspider.Click += new System.EventHandler(this.btnspider_Click);
             // 
-            // btndragao
+            // btndeadpool
             // 
-            this.btndeadpool.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btndeadpool.BackgroundImage")));
             this.btndeadpool.Location = new System.Drawing.Point(18, 233);
             this.btndeadpool.Name = "btndeadpool";
             this.btndeadpool.Size = new System.Drawing.Size(150, 161);
             this.btndeadpool.TabIndex = 4;
             this.btndeadpool.UseVisualStyleBackColor = true;
-            this.btnspider.Click += new System.EventHandler(this.btnspider_Click);
             // 
-            // btnanimal
+            // btnharley
             // 
-            this.btnharley.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnharley.BackgroundImage")));
             this.btnharley.Location = new System.Drawing.Point(18, 35);
             this.btnharley.Name = "btnharley";
             this.btnharley.Size = new System.Drawing.Size(150, 161);
             this.btnharley.TabIndex = 5;
             this.btnharley.UseVisualStyleBackColor = true;
-            this.btnspider.Click += new System.EventHandler(this.btnspider_Click);
             // 
-            // btnTroll
+            // btnhellboy
             // 
-            this.btnhellboy.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnhellboy.BackgroundImage")));
             this.btnhellboy.Location = new System.Drawing.Point(174, 35);
             this.btnhellboy.Name = "btnhellboy";
             this.btnhellboy.Size = new System.Drawing.Size(150, 161);
@@ -126,9 +117,8 @@
             this.btnhellboy.UseVisualStyleBackColor = true;
             this.btnhellboy.Click += new System.EventHandler(this.btnhellboy_Click);
             // 
-            // btnzumbi
+            // btnloki
             // 
-            this.btnloki.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnloki.BackgroundImage")));
             this.btnloki.Location = new System.Drawing.Point(174, 233);
             this.btnloki.Name = "btnloki";
             this.btnloki.Size = new System.Drawing.Size(150, 161);
@@ -152,6 +142,46 @@
             this.gBhumanos.TabIndex = 8;
             this.gBhumanos.TabStop = false;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(170, 213);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(90, 17);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "Spider Man";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(20, 213);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(47, 17);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Mago";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(170, 16);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(53, 17);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Ladão";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(20, 16);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(69, 17);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Gerreiro";
+            // 
             // gBInumanos
             // 
             this.gBInumanos.Controls.Add(this.label10);
@@ -168,85 +198,15 @@
             this.gBInumanos.TabIndex = 9;
             this.gBInumanos.TabStop = false;
             // 
-            // label1
+            // label10
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(20, 16);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(69, 17);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Gerreiro";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(170, 16);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 17);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Ladão";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(20, 213);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(47, 17);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "Mago";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(170, 213);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(71, 17);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "Paladino";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(555, 9);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(95, 22);
-            this.label5.TabIndex = 10;
-            this.label5.Text = "Inumanos";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(134, 9);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(93, 22);
-            this.label6.TabIndex = 11;
-            this.label6.Text = "Humanos";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(15, 16);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(56, 17);
-            this.label7.TabIndex = 8;
-            this.label7.Text = "Animal";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(15, 213);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(61, 17);
-            this.label8.TabIndex = 9;
-            this.label8.Text = "Dragão";
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(171, 16);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(41, 17);
+            this.label10.TabIndex = 11;
+            this.label10.Text = "Troll";
             // 
             // label9
             // 
@@ -258,15 +218,45 @@
             this.label9.TabIndex = 10;
             this.label9.Text = "Zumbi";
             // 
-            // label10
+            // label8
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(171, 16);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(41, 17);
-            this.label10.TabIndex = 11;
-            this.label10.Text = "Troll";
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(15, 213);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(61, 17);
+            this.label8.TabIndex = 9;
+            this.label8.Text = "Dragão";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(15, 16);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(56, 17);
+            this.label7.TabIndex = 8;
+            this.label7.Text = "Animal";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(555, 9);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(99, 22);
+            this.label5.TabIndex = 10;
+            this.label5.Text = "Anti Herói";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(134, 9);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(58, 22);
+            this.label6.TabIndex = 11;
+            this.label6.Text = "Herói";
             // 
             // FrmSelPersonagem
             // 
