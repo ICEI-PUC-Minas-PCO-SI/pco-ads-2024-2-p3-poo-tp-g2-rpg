@@ -1,0 +1,71 @@
+D:\Google Drive\Poo - TI\TI\RPGv3\RPG\bin\Debug\RPG.exe.config
+D:\Google Drive\Poo - TI\TI\RPGv3\RPG\obj\Debug\RPG.csprojResolveAssemblyReference.cache
+D:\Google Drive\Poo - TI\TI\RPGv3\RPG\obj\Debug\RPG.frmRPG.resources
+D:\Google Drive\Poo - TI\TI\RPGv3\RPG\obj\Debug\RPG.FrmCombate.resources
+D:\Google Drive\Poo - TI\TI\RPGv3\RPG\obj\Debug\RPG.FrmPrecombate.resources
+D:\Google Drive\Poo - TI\TI\RPGv3\RPG\obj\Debug\RPG.FrmSelPersonagem.resources
+D:\Google Drive\Poo - TI\TI\RPGv3\RPG\obj\Debug\RPG.FrmTerminaLuta.resources
+D:\Google Drive\Poo - TI\TI\RPGv3\RPG\obj\Debug\RPG.Properties.Resources.resources
+D:\Google Drive\Poo - TI\TI\RPGv3\RPG\obj\Debug\RPG.csproj.GenerateResource.Cache
+C:\Users\Pedro Henrique\OneDrive\Área de Trabalho\gg\System\RPG\bin\Debug\RPG.exe.config
+C:\Users\Pedro Henrique\OneDrive\Área de Trabalho\gg\System\RPG\bin\Debug\RPG.exe
+C:\Users\Pedro Henrique\OneDrive\Área de Trabalho\gg\System\RPG\bin\Debug\RPG.pdb
+C:\Users\Pedro Henrique\OneDrive\Área de Trabalho\gg\System\RPG\obj\Debug\RPG.csproj.AssemblyReference.cache
+C:\Users\Pedro Henrique\OneDrive\Área de Trabalho\gg\System\RPG\obj\Debug\RPG.frmRPG.resources
+C:\Users\Pedro Henrique\OneDrive\Área de Trabalho\gg\System\RPG\obj\Debug\RPG.FrmCombate.resources
+C:\Users\Pedro Henrique\OneDrive\Área de Trabalho\gg\System\RPG\obj\Debug\RPG.FrmPrecombate.resources
+C:\Users\Pedro Henrique\OneDrive\Área de Trabalho\gg\System\RPG\obj\Debug\RPG.FrmSelPersonagem.resources
+C:\Users\Pedro Henrique\OneDrive\Área de Trabalho\gg\System\RPG\obj\Debug\RPG.FrmTerminaLuta.resources
+C:\Users\Pedro Henrique\OneDrive\Área de Trabalho\gg\System\RPG\obj\Debug\RPG.Properties.Resources.resources
+C:\Users\Pedro Henrique\OneDrive\Área de Trabalho\gg\System\RPG\obj\Debug\RPG.csproj.GenerateResource.cache
+C:\Users\Pedro Henrique\OneDrive\Área de Trabalho\gg\System\RPG\obj\Debug\RPG.csproj.CoreCompileInputs.cache
+C:\Users\Pedro Henrique\OneDrive\Área de Trabalho\gg\System\RPG\obj\Debug\RPG.exe
+C:\Users\Pedro Henrique\OneDrive\Área de Trabalho\gg\System\RPG\obj\Debug\RPG.pdb
+C:\Users\Pedro Henrique\OneDrive\Área de Trabalho\rpg-poo\Src\RPG\obj\Debug\RPG.csproj.AssemblyReference.cache
+C:\Users\Pedro Henrique\OneDrive\Área de Trabalho\rpg-poo\Src\RPG\obj\Debug\RPG.frmRPG.resources
+C:\Users\Pedro Henrique\OneDrive\Área de Trabalho\rpg-poo\Src\RPG\obj\Debug\RPG.FrmCombate.resources
+C:\Users\Pedro Henrique\OneDrive\Área de Trabalho\rpg-poo\Src\RPG\obj\Debug\RPG.FrmPrecombate.resources
+C:\Users\Pedro Henrique\OneDrive\Área de Trabalho\rpg-poo\Src\RPG\obj\Debug\RPG.FrmSelPersonagem.resources
+C:\Users\Pedro Henrique\OneDrive\Área de Trabalho\rpg-poo\Src\RPG\obj\Debug\RPG.FrmTerminaLuta.resources
+C:\Users\Pedro Henrique\OneDrive\Área de Trabalho\rpg-poo\Src\RPG\obj\Debug\RPG.Properties.Resources.resources
+C:\Users\Pedro Henrique\OneDrive\Área de Trabalho\rpg-poo\Src\RPG\obj\Debug\RPG.csproj.GenerateResource.cache
+C:\Users\Pedro Henrique\OneDrive\Área de Trabalho\rpg-poo\Src\RPG\obj\Debug\RPG.csproj.CoreCompileInputs.cache
+C:\Users\Pedro Henrique\OneDrive\Área de Trabalho\rpg-poo\Src\RPG\obj\Debug\RPG.exe
+C:\Users\Pedro Henrique\OneDrive\Área de Trabalho\rpg-poo\Src\RPG\obj\Debug\RPG.pdb
+C:\Users\Pedro Henrique\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\obj\Debug\RPG.csproj.AssemblyReference.cache
+C:\Users\Pedro Henrique\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\obj\Debug\RPG.frmRPG.resources
+C:\Users\Pedro Henrique\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\obj\Debug\RPG.FrmCombate.resources
+C:\Users\Pedro Henrique\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\obj\Debug\RPG.FrmPrecombate.resources
+C:\Users\Pedro Henrique\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\obj\Debug\RPG.FrmSelPersonagem.resources
+C:\Users\Pedro Henrique\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\obj\Debug\RPG.FrmTerminaLuta.resources
+C:\Users\Pedro Henrique\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\obj\Debug\RPG.Properties.Resources.resources
+C:\Users\Pedro Henrique\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\obj\Debug\RPG.csproj.GenerateResource.cache
+C:\Users\Pedro Henrique\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\obj\Debug\RPG.csproj.CoreCompileInputs.cache
+C:\Users\Pedro Henrique\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\bin\Debug\RPG.exe.config
+C:\Users\Pedro Henrique\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\bin\Debug\RPG.exe
+C:\Users\Pedro Henrique\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\bin\Debug\RPG.pdb
+C:\Users\Pedro Henrique\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\obj\Debug\RPG.exe
+C:\Users\Pedro Henrique\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\obj\Debug\RPG.pdb
+C:\Users\Pedro Henrique\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Pedro Henrique\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Pedro Henrique\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\obj\Debug\RPG.csproj.CopyComplete
+C:\Users\caiof\Desktop\jogo\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\obj\Debug\RPG.csproj.AssemblyReference.cache
+C:\Users\caiof\Desktop\jogo\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\obj\Debug\RPG.exe
+C:\Users\caiof\Desktop\jogo\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\obj\Debug\RPG.pdb
+C:\Users\adm03\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\bin\Debug\RPG.exe.config
+C:\Users\adm03\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\bin\Debug\RPG.exe
+C:\Users\adm03\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\bin\Debug\RPG.pdb
+C:\Users\adm03\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\bin\Debug\Newtonsoft.Json.dll
+C:\Users\adm03\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\bin\Debug\Newtonsoft.Json.xml
+C:\Users\adm03\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\obj\Debug\RPG.csproj.AssemblyReference.cache
+C:\Users\adm03\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\obj\Debug\RPG.frmRPG.resources
+C:\Users\adm03\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\obj\Debug\RPG.FrmCombate.resources
+C:\Users\adm03\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\obj\Debug\RPG.FrmPrecombate.resources
+C:\Users\adm03\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\obj\Debug\RPG.FrmSelPersonagem.resources
+C:\Users\adm03\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\obj\Debug\RPG.FrmTerminaLuta.resources
+C:\Users\adm03\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\obj\Debug\RPG.Properties.Resources.resources
+C:\Users\adm03\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\obj\Debug\RPG.csproj.GenerateResource.cache
+C:\Users\adm03\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\obj\Debug\RPG.csproj.CoreCompileInputs.cache
+C:\Users\adm03\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\obj\Debug\RPG.csproj.Up2Date
+C:\Users\adm03\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\obj\Debug\RPG.exe
+C:\Users\adm03\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\obj\Debug\RPG.pdb
