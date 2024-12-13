@@ -11,16 +11,20 @@ public class Godzilla : Heroi
     {
         this.NomeImagem = "Godzilla.png";
         // Inicializa o herói chamando um método assíncrono
-        InicializarHeroi("287");
+        InicializarItens();
+    }
 
-        VetItem[0] = new Porrete();
-        VetItem[1] = new EspadaBarroca();
-        VetItem[2] = new Tempestade();
-   
+    public async Task InicializarItens()
+    {
+        await InicializarHeroi("287");
+
+        VetItem[0] = new Soco(this.ForcaFisica);
+        VetItem[1] = new Chute(this.ForcaFisica);
+
         this.MenorArma();
     }
 
-     private async Task InicializarHeroi(string id)
+    private async Task InicializarHeroi(string id)
     {
         HeroiService heroiService = new HeroiService();
         JObject HeroDados = await heroiService.GetHeroById(id);

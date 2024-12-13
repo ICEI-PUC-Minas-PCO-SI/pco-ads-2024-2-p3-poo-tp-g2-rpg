@@ -2,25 +2,24 @@
 
 namespace RPG.Class.Item
 {
-    class EsferadeAtaque : Arma
+    public class PorcaodaVida : Poder
     {
         public override int Dano { get { return this.dano; } set { this.dano = value; } }
         private int dano;
         public override string Nome { get { return this.nome; } set { this.nome = value; } }
         private string nome;
-
         public override int Cura { get { return this.cura; } set { this.cura = value; } }
         private int cura;
-
         public override int GastoMana { get { return this.gastomana; } set { this.gastomana = value; } }
         private int gastomana;
-        public EsferadeAtaque()
+        public override string EfeitoItem { get { return RPG.Class.Enum.EnumEfeitoItem.Cura.ToString(); } set { } }
+        public PorcaodaVida()
         {
-            this.Nome = "Esferade Ataque";
-            this.Cura = 0;
-            this.Dano = 200;
+            this.Nome = "Proção da Vida";
+            this.Cura = 200;
+            this.Dano = 0;
             this.GastoMana = 12;
         }
-
+        
     }
 }

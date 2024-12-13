@@ -8,15 +8,16 @@ public class Goku : Heroi
     public Goku()
     {   
         this.NomeImagem = "Goku.png";
-        InicializarHeroi("289");
+        InicializarItens();
+    }
 
-        VetItem[0] = new Chute();
-        VetItem[1] = new Cajado();
-        VetItem[3] = new MagiaCura();
-        VetItem[4] = new Bio();
-        VetItem[5] = new FlamaGelada();
-        VetItem[6] = new Intoxicacao();
-        VetItem[7] = new Tempestade();
+    public async Task InicializarItens()
+    {
+        await InicializarHeroi("289");
+
+        VetItem[0] = new Soco(this.ForcaFisica);
+        VetItem[1] = new Chute(this.ForcaFisica);
+
         this.MenorArma();
     }
 
@@ -42,7 +43,7 @@ public class Goku : Heroi
                                       powerstats["combat"]?.ToObject<int>()) * 6;
 
             this.PontosdeMana = powerstats["power"]?.ToObject<int>() ?? 0;
-            this.ForcaFisica = powerstats["combat"]?.ToObject<int>() ?? 0;
+            this.ForcaFisica = powerstats["strength"]?.ToObject<int>() ?? 0;
             this.ForcaMagica = (powerstats["power"]?.ToObject<int>() + powerstats["combat"]?.ToObject<int>()) / 2 ?? 0;
             this.PontoArmadura  = powerstats["durability"]?.ToObject<int>() ?? 0;
             this.ResistenciaMagica = (powerstats["durability"]?.ToObject<int>() + powerstats["power"]?.ToObject<int>()) / 2 ?? 0;

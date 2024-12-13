@@ -3,7 +3,7 @@
 
 namespace RPG.Class.Item
 {
-    class Cajado : Arma
+    class Soco : Ataque
     {
         public override int Dano { get { return this.dano; } set { this.dano = value; } }
         private int dano;
@@ -15,12 +15,10 @@ namespace RPG.Class.Item
 
         public override int GastoMana { get { return this.gastomana; } set { this.gastomana = value; } }
         private int gastomana;
-        public Cajado()
+        public Soco(int Forca)
         {
-            this.Nome = "Cajado";
-            this.Cura = 0;
-            this.Dano = 200;
-            this.GastoMana = 12;
+            this.Nome = "Soco";
+            this.Dano = 4 * Forca;
         }
     }
 }

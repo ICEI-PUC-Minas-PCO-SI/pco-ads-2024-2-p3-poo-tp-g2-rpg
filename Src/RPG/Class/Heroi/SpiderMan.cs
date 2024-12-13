@@ -11,15 +11,16 @@ public class SpiderMan : Heroi
     {
         this.NomeImagem = "SpiderMan.png";
         // Inicializa o herói chamando um método assíncrono
-        InicializarHeroi("620");
-        
-        // Definição dos itens do herói
-        VetItem[0] = new Porrete();
-        VetItem[1] = new Intoxicacao();
-        VetItem[2] = new Tempestade();
-        VetItem[3] = new Cajado();
-        VetItem[4] = new Soco();
-        VetItem[5] = new EsferadeAtaque();
+        InicializarItens();
+    }
+
+    public async Task InicializarItens()
+    {
+        await InicializarHeroi("620");
+
+        VetItem[0] = new Soco(this.ForcaFisica);
+        VetItem[1] = new Chute(this.ForcaFisica);
+
         this.MenorArma();
     }
 
@@ -45,7 +46,7 @@ public class SpiderMan : Heroi
                                       powerstats["combat"]?.ToObject<int>()) * 6;
 
             this.PontosdeMana = powerstats["power"]?.ToObject<int>() ?? 0;
-            this.ForcaFisica = powerstats["combat"]?.ToObject<int>() ?? 0;
+            this.ForcaFisica = powerstats["strength"]?.ToObject<int>() ?? 0;
             this.ForcaMagica = (powerstats["power"]?.ToObject<int>() + powerstats["combat"]?.ToObject<int>()) / 2 ?? 0;
             this.PontoArmadura  = powerstats["durability"]?.ToObject<int>() ?? 0;
             this.ResistenciaMagica = (powerstats["durability"]?.ToObject<int>() + powerstats["power"]?.ToObject<int>()) / 2 ?? 0;

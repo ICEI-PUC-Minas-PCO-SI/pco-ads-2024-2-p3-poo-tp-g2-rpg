@@ -8,15 +8,20 @@ public class Ben10 : Heroi
     public Ben10()
     {
         this.NomeImagem = "Ben10.png";
-        InicializarHeroi("78");
+        InicializarItens();
+    }
 
-        VetItem[0] = new Porrete();
-        VetItem[1] = new EspadaBarroca();
-        VetItem[2] = new Tempestade();//Olhar nas especificações
+    public async Task InicializarItens()
+    {
+        await InicializarHeroi("78");
+
+        VetItem[0] = new Soco(this.ForcaFisica);
+        VetItem[1] = new Chute(this.ForcaFisica);
+
         this.MenorArma();
     }
 
-     private async Task InicializarHeroi(string id)
+    private async Task InicializarHeroi(string id)
     {
         HeroiService heroiService = new HeroiService();
         JObject HeroDados = await heroiService.GetHeroById(id);

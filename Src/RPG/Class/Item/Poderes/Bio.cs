@@ -2,9 +2,8 @@
 
 namespace RPG.Class.Item
 {
-    public class FlamaGelada :Magia
+    public class Bio: Poder 
     {
-
         public override int Dano { get { return this.dano; } set { this.dano = value; } }
         private int dano;
         public override string Nome { get { return this.nome; } set { this.nome = value; } }
@@ -15,12 +14,13 @@ namespace RPG.Class.Item
         private int gastomana;
         public override string EfeitoItem { get { return RPG.Class.Enum.EnumEfeitoItem.Dano.ToString(); } set { } }
 
-        public FlamaGelada()
+        public Bio()
         {
-            this.Nome = "Flama Gelada";
-            this.Dano = 320;
+            this.Nome = "Bio";
+            this.Dano = 360;
             this.Cura = 0;
             this.GastoMana = 14;
-        }
+       
+        }        
     }
 }

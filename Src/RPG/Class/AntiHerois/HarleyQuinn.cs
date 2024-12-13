@@ -9,15 +9,20 @@ public class HarleyQuinn : AntiHeroi
     public HarleyQuinn()
     {
         this.NomeImagem = "HarleyQuinn.png";
-        InicializarHeroi("309");
+        InicializarItens();
+    }
 
-        VetItem[0] = new HalitoDeFogo();
-        VetItem[1] = new GarraLetal();
+    public async Task InicializarItens()
+    {
+        await InicializarHeroi("309");
+
+        VetItem[0] = new Soco(this.ForcaFisica);
+        VetItem[1] = new Chute(this.ForcaFisica);
 
         this.MenorArma();
     }
 
-     private async Task InicializarHeroi(string id)
+    private async Task InicializarHeroi(string id)
     {
         HeroiService heroiService = new HeroiService();
         JObject HeroDados = await heroiService.GetHeroById(id);
@@ -39,7 +44,7 @@ public class HarleyQuinn : AntiHeroi
                                       powerstats["combat"]?.ToObject<int>()) * 6;
 
             this.PontosdeMana = powerstats["power"]?.ToObject<int>() ?? 0;
-            this.ForcaFisica = powerstats["combat"]?.ToObject<int>() ?? 0;
+            this.ForcaFisica = powerstats["strength"]?.ToObject<int>() ?? 0;
             this.ForcaMagica = (powerstats["power"]?.ToObject<int>() + powerstats["combat"]?.ToObject<int>()) / 2 ?? 0;
             this.PontoArmadura  = powerstats["durability"]?.ToObject<int>() ?? 0;
             this.ResistenciaMagica = (powerstats["durability"]?.ToObject<int>() + powerstats["power"]?.ToObject<int>()) / 2 ?? 0;
