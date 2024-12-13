@@ -14,10 +14,10 @@ public class Goku : Heroi
         this.PontosdeMana = 100;
         this.ForcaFisica = 40;
         this.ForcaMagica = 100;
-        this.PontoAmrmadura = 30;
+        this.PontoArmadura = 30;
         this.ResistenciaMagica = 100;
         this.Agilidade = 40;
-        this.NomeImegem = "FtoMago.jpg";
+        this.NomeImagem = "FtoMago.jpg";
         VetItem[0] = new TridenteSagrado();
         VetItem[1] = new Cajado();
         VetItem[3] = new MagiaCura();

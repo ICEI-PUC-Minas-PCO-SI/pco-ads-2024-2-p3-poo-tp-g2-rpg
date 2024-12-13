@@ -7,6 +7,7 @@ using System.Text;
 
 public class Godzilla : Heroi
 {
+    
     public Godzilla()
     {
         this.Nome = "Godzilla";
@@ -14,10 +15,10 @@ public class Godzilla : Heroi
         this.PontosdeMana = 80;
         this.ForcaFisica = 60;
         this.ForcaMagica = 60;
-        this.PontoAmrmadura = 60;
+        this.PontoArmadura = 60;
         this.ResistenciaMagica = 60;
         this.Agilidade = 60;
-        this.NomeImegem = "FtoPaladino.jpg";
+        this.NomeImagem = "FtoPaladino.jpg";
 
 
         VetItem[0] = new Porrete();

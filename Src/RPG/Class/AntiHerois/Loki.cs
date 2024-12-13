@@ -10,10 +10,10 @@ public class Loki : AntiHeroi
         this.PontosdeMana = 20;
         this.ForcaFisica = 40;
         this.ForcaMagica = 20;
-        this.PontoAmrmadura = 80;
+        this.PontoArmadura = 80;
         this.ResistenciaMagica = 90;
         this.Agilidade = 20;
-        this.NomeImegem = "FtoZumbi.png";
+        this.NomeImagem = "FtoZumbi.png";
         VetItem[0] = new Intoxicacao();
         VetItem[1] = new GarraLetal();
         VetItem[2] = new Porrete();

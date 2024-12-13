@@ -50,7 +50,7 @@ public abstract class Personagem
         get;
         set;
     }
-    public int PontoAmrmadura
+    public int PontoArmadura
     {
         get;
         set;
@@ -72,7 +72,7 @@ public abstract class Personagem
         get;
         set;
     }
-    public string NomeImegem { get; set; }
+    public string NomeImagem { get; set; }
     #endregion
 
     public Personagem()

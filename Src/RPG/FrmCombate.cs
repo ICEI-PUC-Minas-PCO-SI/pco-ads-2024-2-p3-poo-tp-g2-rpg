@@ -229,11 +229,11 @@ namespace RPG
 
         private void FrmCombate_Load(object sender, EventArgs e)
         {
-            string ImagePath = NovoJogo.EnderecoImagens + NovoJogo.Player1.Personagem.NomeImegem;
+            string ImagePath = NovoJogo.EnderecoImagens + NovoJogo.Player1.Personagem.NomeImagem;
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.Image = Image.FromFile(ImagePath);
 
-            string ImagePath2 = NovoJogo.EnderecoImagens + NovoJogo.Player2.Personagem.NomeImegem;
+            string ImagePath2 = NovoJogo.EnderecoImagens + NovoJogo.Player2.Personagem.NomeImagem;
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.Image = Image.FromFile(ImagePath2);
 

@@ -20,7 +20,7 @@ namespace RPG
         {
             InitializeComponent();
             lblvencedor.Text = jogador.Personagem.Nome;
-            string ImagePath = enderecoImagem + jogador.Personagem.NomeImegem;
+            string ImagePath = enderecoImagem + jogador.Personagem.NomeImagem;
             ptbVencedor.SizeMode = PictureBoxSizeMode.StretchImage;
             ptbVencedor.Image = Image.FromFile(ImagePath);
 

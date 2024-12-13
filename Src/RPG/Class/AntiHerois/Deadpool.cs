@@ -16,10 +16,10 @@ public class Deadpool : AntiHeroi
         this.PontosdeMana = 30;
         this.ForcaFisica = 80;
         this.ForcaMagica = 20;
-        this.PontoAmrmadura = 90;
+        this.PontoArmadura = 90;
         this.ResistenciaMagica = 20;
         this.Agilidade = 50;
-        this.NomeImegem = "FtoAnimal.jpg";
+        this.NomeImagem = "FtoAnimal.jpg";
         VetItem[0] = new Bio();
         VetItem[1] = new GarraLetal();
 

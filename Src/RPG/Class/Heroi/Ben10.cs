@@ -14,10 +14,10 @@ public class Ben10 : Heroi
         this.PontosdeMana = 30;
         this.ForcaFisica = 100;
         this.ForcaMagica = 20;
-        this.PontoAmrmadura = 80;
+        this.PontoArmadura = 80;
         this.ResistenciaMagica = 20;
         this.Agilidade = 50;
-        this.NomeImegem = "FtoGuerreiro.jpg";
+        this.NomeImagem = "FtoGuerreiro.jpg";
 
 
 

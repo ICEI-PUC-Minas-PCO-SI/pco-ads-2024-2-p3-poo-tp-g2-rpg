@@ -14,10 +14,10 @@ public class Hellboy : AntiHeroi
         this.PontosdeMana = 20;
         this.ForcaFisica = 100;
         this.ForcaMagica = 20;
-        this.PontoAmrmadura = 100;
+        this.PontoArmadura = 100;
         this.ResistenciaMagica = 20;
         this.Agilidade = 20;
-        this.NomeImegem = "FtoTroll.jpg";
+        this.NomeImagem = "FtoTroll.jpg";
 
         VetItem[0] = new Porrete();
         VetItem[1] = new Cajado();
