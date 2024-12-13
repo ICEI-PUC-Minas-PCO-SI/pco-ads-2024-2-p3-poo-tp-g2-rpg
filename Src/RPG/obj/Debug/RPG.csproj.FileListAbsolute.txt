@@ -46,3 +46,6 @@ C:\Users\Pedro Henrique\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\bin
 C:\Users\Pedro Henrique\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\bin\Debug\RPG.pdb
 C:\Users\Pedro Henrique\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\obj\Debug\RPG.exe
 C:\Users\Pedro Henrique\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\obj\Debug\RPG.pdb
+C:\Users\Pedro Henrique\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Pedro Henrique\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Pedro Henrique\Source\Repos\pco-ads-2024-2-p3-poo-tp-g2-rpg\Src\RPG\obj\Debug\RPG.csproj.CopyComplete

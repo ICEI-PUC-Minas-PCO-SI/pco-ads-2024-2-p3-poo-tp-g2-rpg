@@ -1,5 +1,8 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using System;
+using System.Net.Http;
+using System.Threading.Tasks;
 
 //ALTERAR QUANDO FORMS ESTIVEREM PRONTOS
 public class HeroiServices
@@ -22,12 +25,12 @@ public class HeroiServices
                     Heroi heroi = new Heroi
                     {
                         Nome = jsonObject["name"]?.ToString(),
-                        Inteligencia = jsonObject["powerstats"]?["intelligence"]?.ToString(),
-                        Forca = jsonObject["powerstats"]?["strength"]?.ToString(),
-                        Velocidade = jsonObject["powerstats"]?["speed"]?.ToString(),
-                        Durabilidade = jsonObject["powerstats"]?["durability"]?.ToString(),
-                        Poder = jsonObject["powerstats"]?["power"]?.ToString(),
-                        Combate = jsonObject["powerstats"]?["combat"]?.ToString()
+                        //Inteligencia = jsonObject["powerstats"]?["intelligence"]?.ToString(),
+                        //Forca = jsonObject["powerstats"]?["strength"]?.ToString(),
+                        //Velocidade = jsonObject["powerstats"]?["speed"]?.ToString(),
+                        //Durabilidade = jsonObject["powerstats"]?["durability"]?.ToString(),
+                        //Poder = jsonObject["powerstats"]?["power"]?.ToString(),
+                        //Combate = jsonObject["powerstats"]?["combat"]?.ToString()
                     };
 
                     Console.WriteLine($"Sucesso! Herói encontrado: {heroi.Nome}");
