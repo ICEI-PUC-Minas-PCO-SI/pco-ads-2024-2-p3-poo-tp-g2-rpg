@@ -2,7 +2,7 @@
 
 namespace RPG.Class.Item
 {
-    public class Bio: Poder 
+    public class RegeneracaoInsana : Poder 
     {
         public override int Dano { get { return this.dano; } set { this.dano = value; } }
         private int dano;
@@ -14,12 +14,12 @@ namespace RPG.Class.Item
         private int gastomana;
         public override string EfeitoItem { get { return RPG.Class.Enum.EnumEfeitoItem.Dano.ToString(); } set { } }
 
-        public Bio()
+        public RegeneracaoInsana(int Vida)
         {
-            this.Nome = "Bio";
-            this.Dano = 360;
-            this.Cura = 0;
-            this.GastoMana = 14;
+            this.Nome = "RegeneracaoInsana";
+            this.Dano = 0;
+            this.Cura = (int) Math.Floor(Vida * 0.30);
+            this.GastoMana = 15;
        
         }        
     }

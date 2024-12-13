@@ -54,7 +54,7 @@
     <Compile Include="Class\Item\Ataques\Soco.cs" />
     <Compile Include="Class\Item\Ataques\Chute.cs" />
     <Compile Include="Class\Item\Poder.cs" />
-    <Compile Include="Class\Item\Poderes\Bio.cs" />
+    <Compile Include="Class\Item\Poderes\RegeneracaoInsana.cs" />
     <Compile Include="Class\Item\Poderes\FlamaGelada.cs" />
     <Compile Include="Class\Item\Poderes\Intoxicacao.cs" />
     <Compile Include="Class\Item\Poderes\MagiaCura.cs" />
@@ -67,7 +67,7 @@
     <Compile Include="Class\Heroi\Heroi.cs" />
     <Compile Include="Class\AntiHerois\AntiHeroi.cs" />
     <Compile Include="Class\Item\Item.cs" />
-    <Compile Include="Class\Item\Poderes\Tempestade.cs" />
+    <Compile Include="Class\Item\Poderes\CaosExplosivo .cs" />
     <Compile Include="Class\Jogador.cs" />
     <Compile Include="Class\Heroi\Godzilla.cs" />
     <Compile Include="Class\Heroi\Goku.cs" />

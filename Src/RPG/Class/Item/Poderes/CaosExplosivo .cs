@@ -2,7 +2,7 @@
 
 namespace RPG.Class.Item
 {
-    public class Tempestade : Poder
+    public class CaosExplosivo : Poder
     {
 
         public override int Dano { get { return this.dano; } set { this.dano = value; } }
@@ -15,11 +15,11 @@ namespace RPG.Class.Item
         private int gastomana;
         public override string EfeitoItem { get { return RPG.Class.Enum.EnumEfeitoItem.Dano.ToString(); } set { } }
 
-        public Tempestade()
+        public CaosExplosivo(int Poder)
         {
-            this.Nome = "Tempestade";
+            this.Nome = "CaosExplosivo ";
             this.Cura =0;
-            this.Dano =200;
+            this.Dano = (int) Math.Floor(11 * Poder * 0.4);
             this.GastoMana=12; 
         }
     }

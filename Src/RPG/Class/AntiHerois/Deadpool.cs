@@ -18,6 +18,7 @@ public class Deadpool : AntiHeroi
 
         VetItem[0] = new Soco(this.ForcaFisica);
         VetItem[1] = new Chute(this.ForcaFisica);
+        VetItem[2] = new RegeneracaoInsana(this.PontosdeVida);
 
         this.MenorArma();
     }

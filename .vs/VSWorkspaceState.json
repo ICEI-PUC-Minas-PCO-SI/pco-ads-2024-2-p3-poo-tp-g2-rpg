@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Src",
+    "\\Src\\RPG",
+    "\\Src\\RPG\\Imagens"
   ],
-  "SelectedNode": "\\C:\\Users\\adm03\\Source\\Repos\\pco-ads-2024-2-p3-poo-tp-g2-rpg",
+  "SelectedNode": "\\Src\\RPG.sln",
   "PreviewInSolutionExplorer": false
 }
